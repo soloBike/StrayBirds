@@ -15,7 +15,7 @@ include:      [".htaccess"]
 exclude:      []
 keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
-kramdown: "kramdown,kramdown"
+markdown: "kramdown,kramdown"
 textile_ext:  "textile"
 
 # Filtering Content
@@ -25,7 +25,7 @@ future:       true
 unpublished:  false
 
 # Conversion
-kramdown:     kramdown
+markdown:     kramdown
 highlighter:  pygments
 lsi:          false
 excerpt_separator: "\n\n"
@@ -117,7 +117,7 @@ disqus:
 
 username: soloBike
 baseurl: /StrayBirds
-kramdown: redcarpet
+markdown: redcarpet
 safe: false
 highlighter: pygments
 title: 飞鸟集
