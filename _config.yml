@@ -15,7 +15,7 @@ include:      [".htaccess"]
 exclude:      []
 keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+kramdown: "kramdown,kramdown"
 textile_ext:  "textile"
 
 # Filtering Content
@@ -25,7 +25,7 @@ future:       true
 unpublished:  false
 
 # Conversion
-markdown:     kramdown
+kramdown:     kramdown
 highlighter:  pygments
 lsi:          false
 excerpt_separator: "\n\n"
@@ -117,7 +117,7 @@ disqus:
 
 username: minixalpha
 baseurl: /StrayBirds
-markdown: redcarpet
+kramdown: redcarpet
 safe: false
 highlighter: pygments
 title: 飞鸟集
