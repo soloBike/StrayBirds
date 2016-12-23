@@ -115,7 +115,7 @@ disqus:
 
 #################################### global configure #######################################
 
-username: minixalpha
+username: soloBike
 baseurl: /StrayBirds
 kramdown: redcarpet
 safe: false
