@@ -113,7 +113,7 @@ disqus:
 #################################### global configure #######################################
 
 username: soloBike
-baseurl: /soloBikes
+baseurl: /blog
 markdown: kramdown
 safe: false
 highlighter: pygments
